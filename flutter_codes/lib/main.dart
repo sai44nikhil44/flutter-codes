@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'increment_counter.dart';
+import 'views/increment_counter.dart';
+import 'views/age_validator.dart';
 
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'), // Demo code
+      //home: const MyHomePage(title: 'Flutter Demo Home Page'), // Demo code
+      home: AgeCalculator(),
     );
   }
 }
